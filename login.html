@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Gamer | Login</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS do projeto -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-login">
+
+  <!-- Cabeçalho -->
+  <header class="cabecalho">
+    <nav class="navbar container">
+      <a class="navbar-brand logo" href="index.html">
+        NEXUS<span>GAMER</span>
+      </a>
+
+      <a href="index.html" class="btn btn-outline-light">
+        Voltar ao início
+      </a>
+    </nav>
+  </header>
+
+  <!-- Área de login -->
+  <main class="area-login">
+    <div class="caixa-login">
+
+      <h1>Bem-vindo de volta!</h1>
+      <p>Entre para continuar na Nexus Gamer.</p>
+
+      <!-- Formulário -->
+      <form id="formLogin">
+
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Digite seu e-mail"
+            required
+          >
+        </div>
+
+        <div class="mb-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input
+            type="password"
+            class="form-control"
+            id="senha"
+            placeholder="Digite sua senha"
+            minlength="6"
+            required
+          >
+        </div>
+
+        <!-- Mostrar senha -->
+        <div class="form-check mb-3">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="mostrarSenha"
+          >
+          <label class="form-check-label" for="mostrarSenha">
+            Mostrar senha
+          </label>
+        </div>
+
+        <!-- Botão entrar -->
+        <button type="submit" class="btn btn-roxo w-100">
+          Entrar
+        </button>
+
+        <p id="mensagemLogin" class="mensagem mt-3" aria-live="polite"></p>
+
+      </form>
+
+      <p class="texto-ajuda">
+        Ainda não tem uma conta?
+        <a href="#" id="cadastroDemo">Cadastre-se</a>
+      </p>
+
+    </div>
+  </main>
+
+  <!-- Bibliotecas -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript do projeto -->
+  <script src="script.js"></script>
+
+</body>
+</html>
