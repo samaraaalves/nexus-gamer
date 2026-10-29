@@ -9,16 +9,14 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- CSS do projeto -->
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- Menu principal -->
+  <!-- MENU -->
   <header class="cabecalho">
     <nav class="navbar navbar-expand-lg navbar-dark container">
-
       <a class="navbar-brand logo" href="index.html">
         NEXUS<span>GAMER</span>
       </a>
@@ -34,29 +32,21 @@
 
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto align-items-lg-center">
-
           <li class="nav-item">
             <a class="nav-link" href="#inicio">Início</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#destaques">Destaques</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#novidades">Novidades</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#galeria">Galeria</a>
           </li>
-
           <li class="nav-item">
-            <a class="btn btn-roxo ms-lg-3" href="login.html">
-              Entrar
-            </a>
+            <a class="btn btn-roxo ms-lg-3" href="login.html">Entrar</a>
           </li>
-
         </ul>
       </div>
     </nav>
@@ -64,99 +54,69 @@
 
   <main>
 
-    <!-- Banner com carrossel -->
+    <!-- BANNER -->
     <section id="inicio">
-      <div id="bannerGamer" class="carousel slide"
-        data-bs-ride="carousel">
-
+      <div id="bannerGamer" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 
-          <!-- Primeiro banner -->
           <div class="carousel-item active">
             <div class="banner banner-um">
               <div class="container">
-
-                <p class="destaque-texto">
-                  TECNOLOGIA GAMER
-                </p>
-
+                <p class="destaque-texto">TECNOLOGIA GAMER</p>
                 <h1>Seu setup começa aqui.</h1>
-
-                <p>
-                  Equipamentos para melhorar sua
-                  experiência nos jogos.
-                </p>
-
+                <p>Equipamentos para melhorar sua experiência nos jogos.</p>
                 <a href="#destaques" class="btn btn-roxo">
                   Ver produtos
                 </a>
-
               </div>
             </div>
           </div>
 
-          <!-- Segundo banner -->
           <div class="carousel-item">
             <div class="banner banner-dois">
               <div class="container">
-
                 <p class="destaque-texto">NOVIDADES</p>
-
                 <h1>Mais estilo para jogar.</h1>
-
-                <p>
-                  Conheça nossos periféricos e acessórios.
-                </p>
-
+                <p>Conheça nossos periféricos e acessórios.</p>
                 <a href="#novidades" class="btn btn-roxo">
                   Conferir
                 </a>
-
               </div>
             </div>
           </div>
 
         </div>
 
-        <!-- Setas do carrossel -->
         <button class="carousel-control-prev" type="button"
-          data-bs-target="#bannerGamer"
-          data-bs-slide="prev"
+          data-bs-target="#bannerGamer" data-bs-slide="prev"
           aria-label="Banner anterior">
           <span class="carousel-control-prev-icon"></span>
         </button>
 
         <button class="carousel-control-next" type="button"
-          data-bs-target="#bannerGamer"
-          data-bs-slide="next"
+          data-bs-target="#bannerGamer" data-bs-slide="next"
           aria-label="Próximo banner">
           <span class="carousel-control-next-icon"></span>
         </button>
-
       </div>
     </section>
 
-    <!-- Produtos em destaque -->
+    <!-- PRODUTOS -->
     <section id="destaques" class="container secao">
-
       <h2>Produtos em destaque</h2>
-
       <p class="subtitulo">
         Escolha o próximo upgrade do seu setup.
       </p>
 
       <div class="row g-4">
 
-        <!-- Produto 1: Teclado -->
+        <!-- TECLADO -->
         <div class="col-md-6 col-lg-3">
           <article class="produto">
-
-            <img
-              src="imagens/teclado.jpg"
+            <img src="imagens/teclado.jpg"
               alt="Teclado gamer RGB">
 
             <h3>Teclado Mecânico RGB</h3>
-
             <p class="preco">R$ 249,90</p>
 
             <button type="button"
@@ -164,20 +124,16 @@
               data-produto="Teclado Mecânico RGB">
               Adicionar
             </button>
-
           </article>
         </div>
 
-        <!-- Produto 2: Mouse -->
+        <!-- MOUSE -->
         <div class="col-md-6 col-lg-3">
           <article class="produto">
-
-            <img
-              src="imagens/mouse gamer RGB.webp"
+            <img src="imagens/mouse gamer RGB.webp"
               alt="Mouse gamer RGB">
 
             <h3>Mouse Gamer Pro</h3>
-
             <p class="preco">R$ 139,90</p>
 
             <button type="button"
@@ -185,26 +141,16 @@
               data-produto="Mouse Gamer Pro">
               Adicionar
             </button>
-
           </article>
         </div>
 
-        <!-- Produto 3: Headset -->
+        <!-- HEADSET -->
         <div class="col-md-6 col-lg-3">
           <article class="produto">
-
-            <picture>
-              <source
-                srcset="imagens/headset gamer RGB.webp"
-                type="image/webp">
-              <img
-                src="imagens/fone de ouvido gamer RGB.webp"
-                alt="Headset gamer RGB"
-                onerror="this.onerror=null;this.src='imagens/headset gamer RGB.webp';">
-            </picture>
+            <img src="imagens/fone de ouvido gamer RGB.webp"
+              alt="Headset gamer RGB">
 
             <h3>Headset Surround</h3>
-
             <p class="preco">R$ 199,90</p>
 
             <button type="button"
@@ -212,20 +158,16 @@
               data-produto="Headset Surround">
               Adicionar
             </button>
-
           </article>
         </div>
 
-        <!-- Produto 4: Monitor -->
+        <!-- MONITOR -->
         <div class="col-md-6 col-lg-3">
           <article class="produto">
-
-            <img
-              src="imagens/monitor gamer.avif"
+            <img src="imagens/monitor gamer.avif"
               alt="Monitor gamer">
 
             <h3>Monitor Gamer 24"</h3>
-
             <p class="preco">R$ 899,90</p>
 
             <button type="button"
@@ -233,68 +175,49 @@
               data-produto="Monitor Gamer 24 polegadas">
               Adicionar
             </button>
-
           </article>
         </div>
 
       </div>
 
-      <!-- Mensagem do carrinho -->
       <p id="mensagemCarrinho"
         class="mensagem mt-3"
         aria-live="polite"></p>
-
     </section>
 
-    <!-- Novidades -->
+    <!-- NOVIDADES -->
     <section id="novidades" class="secao fundo-alternativo">
       <div class="container">
-
         <h2>Novidades</h2>
-
-        <p class="subtitulo">
-          O que chegou por aqui.
-        </p>
+        <p class="subtitulo">O que chegou por aqui.</p>
 
         <div class="row g-4">
 
-          <!-- Primeira novidade -->
           <div class="col-md-6">
             <div class="novidade">
-
               <span>LANÇAMENTO</span>
-
               <h3>Nova linha de periféricos</h3>
-
               <p>
                 Design moderno e iluminação RGB
                 para seu espaço.
               </p>
-
               <a href="#destaques" class="btn btn-roxo">
                 Conhecer
               </a>
-
             </div>
           </div>
 
-          <!-- Segunda novidade -->
           <div class="col-md-6">
             <div class="novidade novidade-azul">
-
               <span>SEU SETUP</span>
-
               <h3>Monte seu espaço gamer</h3>
-
               <p>
                 Encontre acessórios que combinam
                 com seu estilo.
               </p>
-
               <a href="#galeria" class="btn btn-roxo">
                 Ver ideias
               </a>
-
             </div>
           </div>
 
@@ -302,17 +225,14 @@
       </div>
     </section>
 
-    <!-- Galeria -->
+    <!-- GALERIA -->
     <section id="galeria" class="container secao">
-
       <h2>Galeria gamer</h2>
-
       <p class="subtitulo">
         Inspirações para seu setup.
       </p>
 
       <div class="row g-3">
-
         <div class="col-md-4">
           <img class="imagem-galeria"
             src="https://placehold.co/600x400/292047/ffffff?text=Setup+Roxo"
@@ -330,14 +250,12 @@
             src="https://placehold.co/600x400/262632/ffffff?text=Setup+RGB"
             alt="Setup gamer RGB">
         </div>
-
       </div>
     </section>
 
-    <!-- Formulário de novidades -->
+    <!-- NEWSLETTER -->
     <section class="container secao">
       <div class="newsletter">
-
         <h2>Receba nossas novidades</h2>
 
         <form id="formNewsletter"
@@ -363,32 +281,23 @@
         <p id="mensagemNewsletter"
           class="mensagem"
           aria-live="polite"></p>
-
       </div>
     </section>
 
   </main>
 
-  <!-- Rodapé -->
+  <!-- RODAPÉ -->
   <footer class="rodape">
     <div class="container text-center">
-
       <h3>NEXUS GAMER</h3>
-
       <p>Equipamentos para quem ama jogar.</p>
-
       <p>Projeto acadêmico de Front-End — SENAI 2026</p>
-
     </div>
   </footer>
 
-  <!-- jQuery -->
+  <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-  <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- JavaScript do projeto -->
   <script src="script.js"></script>
 
 </body>
